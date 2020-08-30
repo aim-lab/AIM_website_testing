@@ -76,7 +76,7 @@ gulp.task('css', function() {
   return gulp.src([
       'node_modules/bootstrap/dist/css/bootstrap.min.css',
       'node_modules/font-awesome/css/font-awesome.min.css',
-      'node_modules/owl.carousel2/dist/assets/owl.carousel.min.css',
+      'node_modules/owl.carousel2/dist{{site.baseurl}}/assets/owl.carousel.min.css',
       'node_modules/elegant-icons/style.css',
       'node_modules/wowjs/css/libs/animate.css',
       'node_modules/magnific-popup/dist/magnific-popup.css'
